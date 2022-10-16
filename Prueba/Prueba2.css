@@ -1,0 +1,137 @@
+*{box-sizing: 
+    border-box;
+}
+
+body{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    background-color: #d9d9d9
+}
+
+h1{
+    font-size: 4.25em;
+    font-style: oblique;
+    color:rgb(17, 17, 16);
+    color: #d9d9d9; 
+    -webkit-text-stroke: 2px #b46f2b;
+}   
+
+h2{
+    font-size: 2.5em;
+    color:black;
+    text-decoration: underline
+}
+
+h3{
+    font-size: 2em;
+    color:rgb(0, 0, 0);
+}
+
+p{
+    font-size: 20px
+}
+div .recomendados{align-self: auto;}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 50px;
+    border-radius: 15px;
+    border:solid 2px; color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px;
+    color: rgb(160, 156, 156);
+    background-color: #006A4E;
+}
+
+button:hover{
+    color: rgb(58, 58, 58);
+}
+
+.container{
+    max-width: 150em;
+    padding: 1px;
+}
+
+.color-resaltado{
+    color: #b46f2b;
+}
+
+header{
+    background-color: #d9d9d9;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    padding-left: 15px;
+    color: black;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+header a:hover{
+    color: #006A4E
+    
+    
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    color: #d9d9d9;
+    font: bolder;
+    background-image: url(/Imagenes/Mapa.webp.jpeg);
+    background-size: center;
+    background-position: center;
+    background: rgba(0, 0, 0, 0.7) url(/Imagenes/Mapa.webp.jpeg);
+    background-blend-mode: darken;
+   
+}
+
+#somoscc .container{
+    background-color:#d9d9d9;
+    text-align: center;
+    
+}
+
+.cup{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+#nuestras-propuestas .container{
+    text-align: center;
+    padding: 25px, 30px;
+    
+}
+
+#nuestras-propuestas .carta{}
+
+.carta:first-child{
+    background-color: rgb(110,113,96);
+    display: inline-block;
+}
+
+.carta:nth-child(2){
+    background-color: rgb(141,178,144);
+    display: inline-block;
+}
+
+.carta:nth-child(3){
+    background-color: #8d8291;
+    display: inline-block;
+}
+
+.carta:nth-child(4){
+    background-color: #bb8f7f;
+    display: inline-block;
+}
+
+.carta:nth-child(5){
+    background-color: #ce9c47;
+    display: inline-block;
+}
+
